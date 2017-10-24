@@ -1,0 +1,48 @@
+/control/verbose 2
+/run/verbose 1
+/run/printProgress 100000
+##\/\/\/\/\/\/
+##Cs-137
+#/gps/pos/centre 0. 0. 0. mm  
+#/gps/ene/mono 0 MeV
+#/gps/particle ion
+#/gps/ion 55 137 
+
+##Na-22
+/gps/pos/centre 0. 0. 203. mm  
+/gps/ene/mono 0 MeV
+/gps/particle ion
+/gps/ion 11 22
+
+##Co-60
+#/gps/pos/centre 86 30.5 0 mm  
+#/gps/ene/mono 0 MeV
+#/gps/particle ion
+#/gps/ion 27 60
+
+##Am-241
+#/gps/pos/centre 86 30.5 0 mm  
+#/gps/ene/mono 0 MeV
+#/gps/particle ion
+#/gps/ion 95 241
+
+##Ba-133
+#/gps/pos/centre 86 30.5 0 mm
+#/gps/ene/mono 0 MeV
+#/gps/particle ion
+#/gps/ion 56 133
+
+##C-14
+#/gps/pos/centre 0 0 0 mm
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 46. mm
+#/gps/pos/inner_radius 0. mm
+#/gps/pos/halfz 96. mm
+#/gps/pos/confine LSctn
+#/gps/ene/mono 0 MeV
+#/gps/particle ion
+#/gps/ion 6 14
+
+#/run/beamOn 1000000
+/run/beamOn 500000
